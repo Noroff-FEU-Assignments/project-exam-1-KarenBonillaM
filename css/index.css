@@ -1,0 +1,199 @@
+.background-home {
+  margin: 0 100px 80px 100px;
+}
+
+.background-home img {
+  width: 100%;
+  height: 80vh;
+}
+
+.categories-container {
+  margin: 0 100px 30px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories-container div {
+  display: grid;
+  align-content: end;
+  width: 48%;
+  min-height: 75vh;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.categories-container a {
+  padding: 20px 0 110px 25px;
+  background-color: rgb(100, 36, 183, 51%);
+  margin-bottom: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.categories-container a:hover {
+  color: black;
+}
+
+.stockholm-category {
+  background-image: url(/images/viewpoint-stockholm.jpg);
+  background-size: cover;
+  background-position: center;
+  bottom: 10px;
+}
+
+.fashion-category {
+  background-image: url(/images/museum-dress.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.subscribe-container {
+  background-color: #A400DF;
+  min-height: 50vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+
+.subscribe-container h3 {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Bodoni Moda";
+}
+
+.input-container {
+  display: flex;
+}
+
+.subscribe-text {
+  text-align: center;
+}
+
+.subscribe-email {
+  margin-right: 8px;
+}
+
+input {
+  width: 400px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: rgb(228, 226, 226);
+}
+
+input::placeholder {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 1.5em;
+}
+
+button {
+  height: 51px;
+  width: 100px;
+  border-radius: 6px;
+  font-size: 1.3em;
+}
+
+/*CAROUSEL*/
+.blogs-wrapper {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+  max-width: 1200px;
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative
+}
+
+.blogs-wrapper i {
+  font-size: 3.5em;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.blogs-wrapper i:first-child {
+  left: -32px;
+  display: none;
+}
+
+.blogs-wrapper i:last-child {
+  right: -32px;
+}
+
+.blogs-wrapper .carousel-container {
+  scroll-behavior: smooth;
+}
+
+.carousel-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+}
+
+.carousel-container.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel-container.dragging .post {
+  pointer-events: none;
+}
+
+.carousel-container div {
+  margin-left: 14px;
+  width: calc(100%/3);
+}
+
+.post {
+  height: 380px;
+  object-fit: cover;
+}
+
+.carousel-container.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel-container.dragging img {
+  pointer-events: none;
+}
+
+.post img {
+  height: 340px;
+  object-fit: cover;
+  object-position: center;
+  width: 400px;
+  margin-left: 14px;
+}
+
+.post-title {
+  margin-left: 14px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  text-align: center;
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.post-title:hover {
+  color: #A400DF;
+}
+
+.carousel-container div:first-child {
+  margin-left: 0px;
+}
+
+
+
+

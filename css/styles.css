@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Bodoni Moda', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+}
+
+body {
+  background-color: #ffff;
+  font-family: Helvetica, arial, sans-serif;
+  margin: 0;
+}
+
+
+.header-container {
+  background-color: #ffff;
+  display: grid;
+  grid-template-columns: 180px 1fr 180px;
+  align-items: center;
+}
+
+.logo-container {
+  grid-column: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.logo {
+  width: 35vh;
+  margin: auto;
+}
+
+.search-icon {
+  font-size: 2em;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.8em;
+  color: black;
+  font-weight: bold;
+  font-family: "Bodoni Moda";
+}
+
+nav a:hover {
+  color: #A400DF;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.home-navigation {
+  background-color: #FDFADE;
+}
+
+.nav-container {
+  display: flex;
+  margin: 0 120px;
+  justify-content: space-between;
+  padding-left: 0;
+  min-height: 15vh;
+  align-items: center;
+}
+
+main {
+  background-color: #FDFADE;
+}
+
+.visible-hidden {
+  display: none;
+}
+
+footer {
+  margin: 0;
+  background-color: #FDFADE;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer-container {
+  background-color: #A400DF;
+  color: white;
+}
+
+.footer-container nav a:hover {
+  color: white;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.name-logo {
+  font-size: 2.8em;
+  text-align: center;
+  color:#A400DF;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.footer-logo {
+  text-decoration: none;
+  font-family: "Bodoni Moda";
+}
+
+.footer-logo-white h2 {
+  color: white;
+}
+
+footer nav {
+  margin: 0 100px;
+}
+
+#contact-extra-padding {
+  padding-right: 50px;
+}
+
+
+.social-media-container {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-container i {
+  font-size: 1.8em;
+  margin: 0 10px;
+}
+
+.privacy-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+

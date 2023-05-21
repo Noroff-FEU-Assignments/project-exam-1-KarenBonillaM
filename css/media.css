@@ -1,0 +1,149 @@
+@media(max-width: 1300px) and (min-width: 800px) {
+
+  /*INDEX*/
+    .blogs-wrapper{
+      max-width: 800px;
+    }
+  
+    .carousel-container div {
+      width: calc(100%/2);
+    } 
+  
+    /*POST PAGE*/
+  
+    .posts-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media(max-width: 799px) {
+  
+    /*STYLES*/
+  
+    .header-container {
+      display: grid;
+      grid-template-columns: 90px 1fr 90px;
+    }
+  
+    .logo {
+      width: 22vh;
+    }
+  
+    .magnifying-glass-container {
+      justify-self: center;
+    }
+  
+    .nav-container {
+      margin: 0 50px;
+    }
+  
+    nav a {
+      font-size: 1.2em;
+      letter-spacing: -1px;
+    }
+  
+    .name-logo {
+      font-size: 1.7em;
+    }
+  
+    footer {
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 0.8em;
+    }
+  
+    /*INDEX*/
+    .background-home {
+      margin: 0 50px 35px 50px;
+    }
+  
+    .background-home img {
+      height: 35vh;
+    }
+  
+    .blogs-wrapper{
+      max-width: 400px;
+      margin-bottom: 0px;
+    }
+    .carousel-container div{
+      width: 100%;
+    } 
+  
+    .blogs-wrapper {
+      max-width: 300px;
+    }
+  
+    .post img {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .categories-container {
+      margin: 0 50px 25px 50px;
+      display: block;
+    }
+  
+    .categories-container div {
+      width: 100%;
+      min-height: 48vh;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  
+    .categories-container p {
+      padding: 20px 0 80px 25px;
+    }
+  
+    .stockholm-category {
+      margin-bottom: 30px;
+    }
+  
+    .subscribe-container{
+      min-height: 35vh;
+    }
+  
+    .subscribe-container h3 {
+      font-size: 2em;
+    }
+  
+    .subscribe-text {
+      font-size: 0.8em;
+      font-weight: bold;
+      display: flex;
+      margin: 0 10px;
+    }
+  
+    .input-container {
+      margin: 0 auto;
+    }
+    
+    .subscribe-email {
+      width: 200px;
+      height: 35px;
+    }
+  
+    .cta-signup {
+      height: 41px;
+      width: 80px;
+      font-size: 1em;
+    }
+  
+    /*POST PAGE*/
+  
+    .posts-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 20px 50px;
+    }
+  
+    .popup-images img {
+      width: 90%;
+    }
+  
+  }
