@@ -10,6 +10,7 @@ const blogsURL = "https://wordpress.karenbonilla.se/wp-json/wp/v2/posts?_embed";
 
 const morePosts = "&page=2";
 const morePostsURL = apiBase + wordpressBase + blogsBase + morePosts;
+const btn = document.querySelector("#button-posts");
 
 //GETTING DATA FROM API
 
@@ -24,7 +25,11 @@ async function getBlogs() {
 
 
 async function getMoreBlogs() {
-  const response = await fetch (morePostsURL);
+
+  btn.addEventListener("click", function(){
+
+  })
+  const response = await fetch (fullBlogsURL);
 
   const posts = await response.json();
 
@@ -40,19 +45,6 @@ function createPostHTML (post) {
   postContainer.href = "posts/details.html?id=" + post.id;
   postContainer.classList.add("post");
   postContainer.classList.add("thumbnail-posts-page");
-
-  const btn = document.querySelector("#button-posts");
-  let currentPost = 10;
-
-  btn.addEventListener('click', function(){
-    for(let i = currentPost; i< currentPost+2; i++) {
-      if(postContainer[i]) {
-        postContainer[i].style.display = "block";
-      }
-    }  
-  })
-
-  currentPost += 2;
   
 
   //IMAGES
@@ -76,7 +68,6 @@ function createPostHTML (post) {
   container.append(postContainer);
 
 }
-
 
 function createPostsHTML (posts) {
   for (let i = 0; i < posts.length; i++) {
