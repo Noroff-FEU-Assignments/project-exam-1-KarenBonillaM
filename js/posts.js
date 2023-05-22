@@ -13,7 +13,6 @@ const morePostsURL = apiBase + wordpressBase + blogsBase + morePosts;
 const btn = document.querySelector("#button-posts");
 
 //GETTING DATA FROM API
-
 async function getBlogs() {
   const response = await fetch (fullBlogsURL);
 
@@ -23,19 +22,13 @@ async function getBlogs() {
 }
 
 
-
 async function getMoreBlogs() {
-
-  btn.addEventListener("click", function(){
-
-  })
-  const response = await fetch (fullBlogsURL);
+  const response = await fetch (morePostsURL);
 
   const posts = await response.json();
 
   return posts;
 }
-
 
 
 function createPostHTML (post) {
@@ -76,7 +69,6 @@ function createPostsHTML (posts) {
   }
 }
 
-
 async function postSection () {
   const posts = await getBlogs();
   createPostsHTML(posts);
@@ -84,14 +76,9 @@ async function postSection () {
 
 postSection()
 
-async function morePostSection () {
+btn.addEventListener("click", async function morePostSection() {
   const posts = await getMoreBlogs();
   createPostsHTML(posts);
-}
-
-morePostSection()
+}, {once : true},);
 
 
-
-/*By default Wordpress fetches 10 per page. I found it easiest to fetch page 2 so I only get the ones that are missing from the first fetch. My url looks like so /posts?per_page=10?page=2
-So I just added page 2 to the button activated fetch and ran that data through the renderPosts (or whatever you’ve named yours)*/

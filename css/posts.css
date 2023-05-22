@@ -62,10 +62,10 @@
 
 }
 
-.post {
+/*.post {
   display: none;
 }
 
 .post:nth-child(n+3) {
   display: block;
-}
+}*/
