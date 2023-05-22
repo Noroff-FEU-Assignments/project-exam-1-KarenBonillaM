@@ -1,3 +1,22 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-icon {
+  padding-left: 10px;
+}
+
+#search-item {
+  height: 32px;
+  border-radius: 10px;
+}
+
+
 .posts-container,
 .morePosts-container {
   display: grid;
@@ -61,11 +80,3 @@
   background-color: orange;
 
 }
-
-/*.post {
-  display: none;
-}
-
-.post:nth-child(n+3) {
-  display: block;
-}*/
