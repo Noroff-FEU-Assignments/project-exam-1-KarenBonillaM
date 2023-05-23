@@ -50,10 +50,6 @@
   @media(max-width: 799px) {
   
     /*STYLES*/
-
-    main {
-      padding: 0 25px;
-    }
   
     .header-container {
       display: grid;
@@ -181,6 +177,10 @@
     }
   
     /*POST PAGE*/
+
+    .posts-main-container {
+      padding: 0 25px;
+    }
   
     .posts-container {
       display: grid;
@@ -220,5 +220,41 @@
       width: 40vh;
       height: 45vh;
     }
+
+    /*CONTACT PAGE*/
+
+    .body-container {
+      position: absolute;
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    .contact-main-container{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 25px;
+    }
+
+    .form-container {
+      padding-bottom: 30px;
+    }
+
+    .form-container label {
+      font-size: 1em;
+    }
+
+    .form-img {
+      display: none;
+    }
+
+    .form-container input {
+      width: 220px;
+    }
+    
+    .form-error {
+      text-align: center;
+    }
+
 
   }
