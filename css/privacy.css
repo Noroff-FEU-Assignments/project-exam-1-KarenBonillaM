@@ -1,0 +1,14 @@
+.main-padding {
+  padding: 20px 180px;
+}
+
+.main-padding h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.main-padding p {
+  font-size: 1.3em;
+  text-align: justify;
+  line-height: 1.4em;
+}

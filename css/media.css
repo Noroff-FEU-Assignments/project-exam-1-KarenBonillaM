@@ -40,6 +40,12 @@
       width: 70vh;
       height: 75vh;
     }
+
+    /*PRIVACY PAGE*/
+
+    .main-padding {
+      padding: 20px 100px;
+    }
   }
   
   
@@ -254,6 +260,16 @@
     
     .form-error {
       text-align: center;
+    }
+
+     /*PRIVACY PAGE*/
+
+     .main-padding {
+      padding: 20px 40px;
+    }
+
+    .main-padding p {
+      font-size: 1em;
     }
 
 
