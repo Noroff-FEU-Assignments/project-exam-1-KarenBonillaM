@@ -32,9 +32,9 @@
 
 .post-title {
   color: black;
-  font-size: 1.4em;
-  font-weight: 600;
+  font-size: 1.2em;
   text-align: center;
+  padding: 0 10px;
   text-transform: uppercase;
 }
 
@@ -53,8 +53,8 @@
 }
 
 .thumbnail-posts-page img {
-  width: 90%;
-  height: 400px;
+  width: 95%;
+  height: 380px;
   border-radius: 8px;
 }
 
@@ -71,12 +71,11 @@
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
-  background-color: rgb(226, 226, 88);
+  background-color: orange;
   border-radius: 8px;
-  border: 2px solid rgb(234, 85, 6);
 }
 
-.button-moreposts-container button:hover {
-  background-color: orange;
+#button-posts:hover {
+  background-color: rgb(177, 74, 246);
 
 }

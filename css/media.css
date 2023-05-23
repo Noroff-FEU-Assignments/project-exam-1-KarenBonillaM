@@ -15,6 +15,31 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
+
+    /*DETAILS PAGE*/
+
+    .details-container {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      grid-template-columns: 1fr;
+    }
+
+    .title-details-post {
+      padding-top: 0;
+      font-size: 1.4em;
+    }
+
+    .post-img {
+      grid-row: 3;
+      width: 70%;
+      margin-top: 40px;
+      justify-self: center;
+    }
+
+    .popup-container img {
+      width: 70vh;
+      height: 75vh;
+    }
   }
   
   
@@ -25,10 +50,14 @@
   @media(max-width: 799px) {
   
     /*STYLES*/
+
+    main {
+      padding: 0 25px;
+    }
   
     .header-container {
       display: grid;
-      grid-template-columns: 90px 1fr 90px;
+      grid-template-columns: 60px 1fr 60px;
     }
   
     .logo {
@@ -37,6 +66,11 @@
   
     .magnifying-glass-container {
       justify-self: center;
+    }
+
+    .fa-user {
+      font-size: 1.2em;
+      color: black;
     }
   
     .nav-container {
@@ -56,6 +90,14 @@
       padding-left: 50px;
       padding-right: 50px;
       font-size: 0.8em;
+    }
+
+    footer nav {
+      margin: 0;
+    }
+
+    #contact-extra-padding {
+      padding-right: 20px;
     }
   
     /*INDEX*/
@@ -82,6 +124,10 @@
     .post img {
       width: 300px;
       height: 300px;
+    }
+
+    .post-title {
+      font-size: 1em;
     }
   
     .categories-container {
@@ -139,11 +185,40 @@
     .posts-container {
       display: grid;
       grid-template-columns: 1fr;
-      padding: 20px 50px;
+      padding: 0 15px;
     }
   
     .popup-images img {
       width: 90%;
     }
   
+    #search-item {
+      display: none;
+    }
+
+    /*DETAILS PAGE*/
+
+    .details-container {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      grid-template-columns: 1fr;
+    }
+
+    .title-details-post {
+      padding-top: 0;
+      font-size: 1.4em;
+    }
+
+    .post-img {
+      grid-row: 3;
+      width: 70%;
+      margin-top: 40px;
+      justify-self: center;
+    }
+
+    .popup-container img {
+      width: 40vh;
+      height: 45vh;
+    }
+
   }
