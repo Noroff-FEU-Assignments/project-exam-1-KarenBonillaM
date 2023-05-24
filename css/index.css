@@ -52,8 +52,9 @@
   background-color: #A400DF;
   min-height: 50vh;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto auto;
   justify-content: center;
+  position: relative;
 }
 
 .subscribe-container h3 {
@@ -194,6 +195,32 @@ button {
   margin-left: 0px;
 }
 
+/*SUBSCRIBE*/
 
+#subscribeError {
 
+}
+
+#subscribe-success {
+  position: absolute;
+  top: 150px;
+  right: 450px;
+  background-color: rgb(187, 184, 184);
+  padding: 50px 100px;
+  font-size: 1.2em;
+  font-family: Helvetica, Arial,sans-serif;
+  border-radius: 5px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.form-error {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: helvetica, Arial, sans-serif;
+}
 

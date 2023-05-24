@@ -142,5 +142,10 @@ footer nav {
   padding: 20px 0;
 }
 
+.message-success {
+  display: none;
+}
 
-
+.form-error {
+  display: none;
+}

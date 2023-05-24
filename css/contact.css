@@ -51,18 +51,9 @@ main {
   justify-self: right;
 }
 
-.form-error {
-  display: none;
-  color: red;
-}
-
 #message {
   height: 120px;
   text-align: start;
-}
-
-.message-success {
-  display: none;
 }
 
 .form-img img {
@@ -71,5 +62,7 @@ main {
   border-radius: 6px;
 }
 
-
+.form-error {
+  color: red;
+}
 
