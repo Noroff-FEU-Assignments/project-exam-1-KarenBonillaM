@@ -83,7 +83,6 @@ btn.addEventListener("click", async function morePostSection() {
 
 
 
-
 //SEARCH BAR
 
 const search = document.querySelector("#search-item");

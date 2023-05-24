@@ -36,14 +36,14 @@
 }
 
 .stockholm-category {
-  background-image: url(images/viewpoint-stockholm.jpg);
+  background-image: url(../images/viewpoint-stockholm.jpg);
   background-size: cover;
   background-position: center;
   bottom: 10px;
 }
 
 .fashion-category {
-  background-image: url(images/museum-dress.jpg);
+  background-image: url(../images/museum-dress.jpg);
   background-size: cover;
   background-position: center;
 }
