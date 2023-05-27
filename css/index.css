@@ -65,10 +65,14 @@
 
 .input-container {
   display: flex;
+  justify-self: center;
 }
 
 .subscribe-text {
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 1.2em;
 }
 
 .subscribe-email {
