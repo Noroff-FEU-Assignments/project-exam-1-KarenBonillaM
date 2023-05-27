@@ -31,6 +31,7 @@ function createPostHTML (post) {
     const img = document.createElement("img");
     img.classList.add("thumbnail")
     img.src = imgData.source_url;
+    img.alt = imgData.alt_text;
     postContainer.append(img);
   }
 

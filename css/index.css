@@ -117,7 +117,7 @@ button {
   border-radius: 50%;
 }
 
-.blogs-wrapper i:first-child {
+#left {
   left: -32px;
   display: none;
 }
