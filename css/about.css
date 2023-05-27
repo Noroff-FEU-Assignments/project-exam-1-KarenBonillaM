@@ -1,6 +1,33 @@
-.footer-container {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+.aboutUs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.main-padding {
+  padding: 20px 180px;
+  font-family: var(--text-paragraph), Arial, sans-serif;
+}
+
+.main-padding h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.main-padding p {
+  font-size: 1.3em;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.main-padding img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.policy-container {
+  font-family: var(--text-paragraph), Arial, sans-serif;
+  padding-bottom: 60px;
 }

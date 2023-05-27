@@ -316,5 +316,10 @@
       font-size: 1em;
     }
 
+    /*ABOUT US*/
+
+    .aboutUs-container {
+      display: block
+    }
    
   }

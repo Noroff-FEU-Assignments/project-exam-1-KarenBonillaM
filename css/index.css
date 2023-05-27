@@ -41,7 +41,6 @@
   background-position: center;
   bottom: 10px;
 }
-
 .fashion-category {
   background-image: url(../images/museum-dress.jpg);
   background-size: cover;
@@ -49,7 +48,7 @@
 }
 
 .subscribe-container {
-  background-color: #A400DF;
+  background-color: var(--color-footer);
   min-height: 50vh;
   display: grid;
   grid-template-rows: auto auto auto;
@@ -60,7 +59,7 @@
 .subscribe-container h3 {
   font-size: 3em;
   text-align: center;
-  font-family: "Bodoni Moda";
+  font-family: var(--text-heading);
 }
 
 .input-container {
@@ -70,7 +69,7 @@
 
 .subscribe-text {
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: var(--text-paragraph), Arial, sans-serif;
   color: white;
   font-size: 1.2em;
 }
@@ -117,7 +116,7 @@ button {
   position: absolute;
   top: 42%;
   transform: translateY(-50%);
-  background-color: #fff;
+  background-color: var(--header-color);
   border-radius: 50%;
 }
 
@@ -192,7 +191,7 @@ button {
 }
 
 .post-title:hover {
-  color: #A400DF;
+  color: var(--color-footer);
 }
 
 .carousel-container div:first-child {

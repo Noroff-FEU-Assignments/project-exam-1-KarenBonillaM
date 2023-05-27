@@ -1,15 +1,17 @@
+@import "imports/variables.css";
+
 @font-face {
-  font-family: 'Bodoni Moda', serif;
+  font-family: var(--text-heading), serif;
   src: url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,700;1,400&display=swap");
 }
 
 h1, h2, h3 {
-  font-family: "Bodoni Moda", Arial, Helvetica, sans-serif;
+  font-family: var(--text-heading), Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: #ffff;
-  font-family: "Bodoni Moda", Helvetica, arial, sans-serif;
+  background-color: var(--header-color);
+  font-family: var(--text-heading), serif;
   margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -17,7 +19,7 @@ body {
 
 
 .header-container {
-  background-color: #ffff;
+  background-color: var(--header-color);
   display: grid;
   grid-template-columns: 180px 1fr 180px;
   align-items: center;
@@ -41,7 +43,7 @@ body {
 }
 
 .fa-user:hover {
-  color:#A400DF;
+  color: var(--color-footer);
 }
 
 nav a {
@@ -49,11 +51,11 @@ nav a {
   font-size: 1.8em;
   color: black;
   font-weight: bold;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: var(--text-paragraph), Arial, sans-serif;
 }
 
 nav a:hover {
-  color: #A400DF;
+  color: var(--color-footer);
 }
 
 nav ul {
@@ -61,7 +63,7 @@ nav ul {
 }
 
 .home-navigation {
-  background-color: #FDFADE;
+  background-color: var(--background-color);
 }
 
 .nav-container {
@@ -74,7 +76,7 @@ nav ul {
 }
 
 main {
-  background-color: #FDFADE;
+  background-color: var(--background-color);
 }
 
 .visible-hidden {
@@ -83,13 +85,13 @@ main {
 
 footer {
   margin: 0;
-  background-color: #FDFADE;
+  background-color: var(--background-color);
   padding-left: 100px;
   padding-right: 100px;
 }
 
 .footer-container {
-  background-color: #A400DF;
+  background-color: var(--color-footer);
   color: white;
 }
 
@@ -106,14 +108,14 @@ footer {
 .name-logo {
   font-size: 2.8em;
   text-align: center;
-  color:#A400DF;
+  color: var(--color-footer);
   margin-top: 0;
   padding-top: 30px;
 }
 
 .footer-logo {
   text-decoration: none;
-  font-family: "Bodoni Moda";
+  font-family: var(--text-heading);
 }
 
 .footer-logo-white h2 {
