@@ -34,6 +34,8 @@ main {
   line-height: 1.4em;
   font-weight: 350;
   text-align: justify;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 /*POPUP IMAGES*/

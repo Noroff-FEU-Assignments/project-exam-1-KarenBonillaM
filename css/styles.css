@@ -40,6 +40,10 @@ body {
   color: black;
 }
 
+.fa-user:hover {
+  color:#A400DF;
+}
+
 nav a {
   text-decoration: none;
   font-size: 1.8em;
@@ -129,6 +133,14 @@ footer nav {
   margin-top: 35px;
   display: flex;
   justify-content: center;
+}
+
+.social-media-container a {
+  color: black;
+}
+
+.social-media-container a:hover {
+  color: white;
 }
 
 .social-media-container i {

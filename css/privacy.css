@@ -12,3 +12,8 @@
   text-align: justify;
   line-height: 1.4em;
 }
+
+.policy-container {
+  font-family: Helvetica, Arial, sans-serif;
+  padding-bottom: 60px;
+}

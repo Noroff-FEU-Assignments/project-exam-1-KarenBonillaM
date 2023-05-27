@@ -14,6 +14,19 @@
     .posts-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      justify-items: center;
+    }
+
+    .thumbnail-posts-page img {
+      width: 350px;
+      height: 350px;
+    }
+
+    .posts-container a, 
+    .morePosts-container a {
+      display: grid;
+      justify-content: center;
+      max-width: 360px;
     }
 
     /*DETAILS PAGE*/
@@ -39,6 +52,21 @@
     .popup-container img {
       width: 70vh;
       height: 75vh;
+    }
+
+    /*CONTACT PAGE*/
+
+    .contact-main-container {
+      padding: 50px;
+      gap: 30px;
+    }
+
+    .form-img {
+      justify-self: right;
+    }
+
+    .form-container label {
+      min-width: 100px;
     }
 
     /*PRIVACY PAGE*/
@@ -192,6 +220,14 @@
       display: grid;
       grid-template-columns: 1fr;
       padding: 0 15px;
+      justify-items: center;
+    }
+
+    .posts-container a, 
+    .morePosts-container a {
+      display: grid;
+      justify-content: center;
+      max-width: 310px;
     }
   
     .popup-images img {
@@ -213,6 +249,10 @@
     .title-details-post {
       padding-top: 0;
       font-size: 1.4em;
+    }
+
+    .thumbnail{
+      justify-self: center;
     }
 
     .post-img {
@@ -265,12 +305,16 @@
      /*PRIVACY PAGE*/
 
      .main-padding {
-      padding: 20px 40px;
+      padding: 0 40px 40px 40px;
+    }
+
+    .main-padding h1 {
+      margin-top: 0px;
     }
 
     .main-padding p {
       font-size: 1em;
     }
 
-
+   
   }

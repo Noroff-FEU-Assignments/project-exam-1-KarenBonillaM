@@ -8,7 +8,7 @@
 }
 
 .categories-container {
-  margin: 0 100px 30px 100px;
+  margin: 0 122px 30px 122px;
   display: flex;
   justify-content: space-between;
 }
@@ -155,7 +155,7 @@ button {
 }
 
 .post {
-  height: 420px;
+  height: 430px;
   object-fit: cover;
 }
 
@@ -169,7 +169,7 @@ button {
 }
 
 .post img {
-  height: 340px;
+  height: 360px;
   object-position: center;
   width: 400px;
   margin-left: 14px;
